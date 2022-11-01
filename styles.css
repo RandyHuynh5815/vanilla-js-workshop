@@ -1,0 +1,34 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 75px;
+}
+
+#question {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+select {
+    width: 20%;
+}
+
+#answer {
+    font-size: 50px;
+}
+
+#petr {
+    height: 10%;
+    width: 10%;
+}
