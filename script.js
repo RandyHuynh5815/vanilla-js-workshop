@@ -2,8 +2,8 @@ const firstNum = document.getElementById("num1");
 const op = document.getElementById("op");     
 const secondNum = document.getElementById("num2"); 
 
-const btn = document.getElementById("calc");                  
-btn.addEventListener('click', function() {
+const form = document.getElementById("question");                  
+form.addEventListener('submit', (event) => {
     num1 = parseInt(firstNum.value);
     num2 = parseInt(secondNum.value);
     switch(op.value) {
@@ -21,4 +21,5 @@ btn.addEventListener('click', function() {
     }
     let answerElement = document.getElementById("answer");
     answerElement.innerHTML = answer;
+    event.preventDefault();
 });

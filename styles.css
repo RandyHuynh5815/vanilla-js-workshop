@@ -15,13 +15,13 @@ body {
 
 #question {
     display: flex;
-    width: 450px;
+    width: 500px;
     justify-content: space-between;
     padding-bottom: 10px;
 }
 
 select {
-    width: 20%;
+    width: 10%;
 }
 
 #answer {

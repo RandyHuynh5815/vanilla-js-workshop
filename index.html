@@ -10,13 +10,13 @@
         These can retrieve and send data for the frontend,
         as well as change the way the website looks!
     -->
-        <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>My App</title>
 </head>
 <body>
     <div class="container">
         <p id="title">Petr's Calculator</p>
-        <div id="question">
+        <form id="question">
             <input type="text" id="num1" placeholder="First number">
             <select name="operation" id="op">
                 <option value="+">+</option>
@@ -25,8 +25,8 @@
                 <option value="/">/</option>
             </select>
             <input type="text" id="num2" placeholder="Second number">
-        </div>
-        <button id="calc" type="submit">Calculate</button>
+            <input type="submit" value="Calculate">
+        </form>
         <p id="answer"></p>
         <img id="petr" src="petr.png">
     </div>
